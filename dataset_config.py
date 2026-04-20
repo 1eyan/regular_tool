@@ -46,11 +46,11 @@
 # }
 
 #info_h5 = '/NAS/czt/mount/seis_flow_data12V2/h5/dongfang/raw5d_data1104.h5'
-info_h5 = '/NAS/czt/mount/seis_flow_data12V2/h5/dongfang/reg5dbin_label1031.h5'
+info_h5 = './h5/segc3na/segc3na_2.h5'
 segyPairs = {
     '1551': [
-        '/NAS/czt/mount/chengzhitong/data/测试数据/reg_pku_1031/reg_pku_1030/reg5dbin_label1031.sgy',
-        '/NAS/czt/mount/chengzhitong/data/测试数据/reg_pku_1031/reg_pku_1030/reg5dbin_label1031.sgy',
+        '/data/shared/SEGC3/SEG_C3NA_ffid_1201-2400.sgy',
+        '/data/shared/SEGC3/SEG_C3NA_ffid_1201-2400.sgy',
         'interp',
         '5d_line_by_order',
         'none'
